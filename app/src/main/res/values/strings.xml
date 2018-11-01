@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hawkeye</string>
+    <string name="settings">settings</string>
+    <string name="HTTP_Proxy">HTTP Proxy</string>
+    <string name="Port_No">Port No</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="register">Register</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b1bfca"
+    tools:context="com.example.anirudh.hawkeye.settings_page">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+         />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Time"/>
+
+    <TextView
+        android:id="@+id/txtstrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="T"/>
+
+    <Button
+        android:id="@+id/btnend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End time"/>
+
+    <TextView
+        android:id="@+id/txtend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/cur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLICK TO SET THE TIME"/>
+
+
+</LinearLayout>
